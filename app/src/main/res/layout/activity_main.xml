@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.example.recorder.widget.PagerSlidingTabStrip
+        android:id="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_hight"
+        android:layout_gravity="top"
+        android:background="@color/white"
+        app:pstsDefTextColor="@color/txt_light_gray"
+        app:pstsDividerColor="#00000000"
+        app:pstsDividerPadding="0dp"
+        app:pstsDividerWidth="0dp"
+        app:pstsIndicatorColor="@color/theme_green"
+        app:pstsIndicatorPaddingLeftRight="50dp"
+        app:pstsIndicatorHeight="2dp"
+        app:pstsSelTextColor="@color/theme_green"
+        app:pstsShouldExpand="true"
+        app:pstsTabTextSize="@dimen/content_title_size"
+        app:pstsUnderlineColor="@color/black"
+        app:pstsUnderlineHeight="0dp"/>
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/bg_gray"-->
+        <!--/>-->
+
+    <com.example.recorder.widget.NoScrollViewPager
+        android:id="@+id/mViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab_title"
+        android:background="@color/white" />
+
+</LinearLayout>

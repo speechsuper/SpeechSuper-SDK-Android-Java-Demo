@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name_home">demo_for_android</string>
+
+    <string name="txt_hint_input_word">Please enter the evaluation content</string>
+    <string name="txt_start_test">Start(long press)</string>
+    <string name="txt_stop_test">Stop evaluation</string>
+    <string name="txt_replay">playback</string>
+
+    <string name="play">play</string>
+    <string name="playing">Playing</string>
+    <string name="pause">pause</string>
+
+
+    <string name="txt_word">English word</string>
+    <string name="txt_sentence">English sentence</string>
+    <string name="txt_paragraph">English paragraph</string>
+
+    <string name="txt_chinese_word">Chinese word</string>
+    <string name="txt_chinese_sentence">Chinese sentence</string>
+    <string name="txt_chinese_paragraph">Chinese paragraph</string>
+
+
+
+    <!-- Short passage reading aloud -->
+    <string name="passage_demo1">My friend Lucy often gets up at seven o’clock in the morning. After breakfast she goes to school at half past seven. The lessons start at eight. She has four lessons in the morning and two in the afternoon. She has lunch at school. After school she often plays table tennis with me. In the evening she watches TV, then she does her homework. She goes to bed at half past ten.</string>
+    <string name="passage_demo2">Watching films and listening to songs are great ways to learn English! Watch and listen several times, and guess the meaning of the new words. Each time you will learn something new. I also advise you to talk about the films or songs with your friends.</string>
+
+</resources>

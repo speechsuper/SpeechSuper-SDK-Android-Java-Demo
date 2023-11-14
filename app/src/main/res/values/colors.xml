@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="theme_green">#E66B1A</color>
+    <color name="theme_green_press">#FF6600</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="txt_gray">#585757</color>
+
+    <color name="txt_light_gray">#898787</color>
+    <color name="txt_yellow">#F5A100</color>
+    <color name="line_color">#e2e2e2</color>
+</resources>
